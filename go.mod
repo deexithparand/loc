@@ -1,4 +1,4 @@
-module linuxtf
+module fuc
 
 go 1.25.4
 
