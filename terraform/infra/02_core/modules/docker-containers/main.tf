@@ -4,11 +4,11 @@ resource "docker_container" "container" {
     count = var.container_instance_count
 
     image = var.docker_image_id
-    name = "${replace(var.docker_image_name,":","-")}-${var.environment}-container-${count.index}"
+    name = "${replace(var.docker_image_name,":","-")}-${var.environment}-container-${count.index + 1}"
 
     ports {
         internal = var.internal_port_number
-        external = var.external_port_number + count.index
+        external = var.external_port_number + count.index  + 1
     }
 
     command = var.container_infinity_command
