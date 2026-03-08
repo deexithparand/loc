@@ -35,7 +35,7 @@ With LOC, you can:
 
 ---
 
-## 🔹 Project Structure
+## Project Structure
 
 ```text
 ├── cli               # Golang CLI code (Cobra commands)
@@ -52,7 +52,7 @@ With LOC, you can:
 
 ---
 
-## 🔹 Prerequisites
+## Prerequisites
 
 * **Docker** installed on your machine.
 * **Terraform CLI** installed.
@@ -60,7 +60,7 @@ With LOC, you can:
 
 ---
 
-## 🔹 Contributing & Build Your Own CLI
+## Contributing & Build Your Own CLI
 
 LOC is a **weekend hobby project** to learn Terraform locally in a fun and safe way — no cloud bills required.
 
@@ -69,7 +69,7 @@ You’re welcome to **fork this project and build your own version** of the CLI.
 > **Fork LOC on GitHub:** [https://github.com/deexithparand/loc/fork](https://github.com/deexithparand/loc/fork)
 
 ---
-## 🔹 Terraform Folder Structure Script
+## Terraform Folder Structure Script
 
 Manually creating the Terraform folder structure for every project can be tedious. I’ve written a **shell script** to automate it. You can **pull and run it directly**:
 
